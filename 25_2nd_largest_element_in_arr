@@ -24,4 +24,4 @@ for i in range(0,n):
     elif nums[i]>s_largest and nums[i]!=largest:
         s_largest=nums[i]
         
-print(s_largest)
+print(s_largest) 
