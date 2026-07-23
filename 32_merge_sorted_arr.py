@@ -24,10 +24,3 @@ while j<n:
         res.append(nums2[j])
     j+=1
 print(res)
-        
-        
-        
-    
-
-
-
