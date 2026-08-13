@@ -9,7 +9,7 @@ for i in range(0,len(nums)):
 print(nums)
 for i in range(0,len(nums)):
     max_index=i
-    for j in range(i+1,len(nums)):
+    for j in range(i+1,len(nums)):  
         if nums[max_index]<nums[j]:
             max_index=j
     nums[i],nums[max_index]=nums[max_index],nums[i]
